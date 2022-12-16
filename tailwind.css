@@ -1257,6 +1257,14 @@ input[type="range"]::-ms-fill-lower {
   --tw-ring-offset-width: 8px;
 }
 
+.ring-offset-transparent {
+  --tw-ring-offset-color: transparent;
+}
+
+.ring-offset-blue-600 {
+  --tw-ring-offset-color: #1C64F2;
+}
+
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1420,6 +1428,33 @@ input[type="range"]::-ms-fill-lower {
 .dark .dark\:text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.dark .dark\:ring-white {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity));
+}
+
+.dark .dark\:ring-offset-transparent {
+  --tw-ring-offset-color: transparent;
+}
+
+.dark .dark\:ring-offset-blue-600 {
+  --tw-ring-offset-color: #1C64F2;
+}
+
+.dark .dark\:ring-offset-gray-900 {
+  --tw-ring-offset-color: #111827;
 }
 
 .dark .dark\:hover\:bg-gray-700:hover {
