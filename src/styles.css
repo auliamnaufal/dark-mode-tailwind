@@ -1,0 +1,12 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.underline-animation-component {
+	@apply before:content-[''] before:absolute before:block before:w-full before:h-[2px] before:bottom-0 before:left-0 before:bg-gray-900 dark:before:bg-gray-300 before:hover:scale-x-100 before:scale-x-0 before:origin-top-left before:transition before:ease-in-out before:duration-300;
+}
+
+.hover-bullet {
+	@apply before:w-2 before:h-2 before:absolute before:opacity-0 group-hover:before:opacity-100 before:top-6 before:left-1/2 before:rounded-full before:bg-gray-500 before:transition-all before:duration-150;
+}
